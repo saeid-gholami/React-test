@@ -1,4 +1,4 @@
-import "./portfolio.css";
+import "./Portfolio.css";
 
 function Protfolio() {
     return (
