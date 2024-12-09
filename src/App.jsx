@@ -4,6 +4,7 @@ import Navbar from "./Navbar/Navbar";
 import Works from "./Main/Works";
 import Comments from "./Main/Comments";
 import Protfolio from "./Main/portfolio";
+import Newsletter from "./Footer/Newsletter";
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
             <Works />
             <Comments />
             <Protfolio />
+            <Newsletter />
         </div>
     )
 }

@@ -1,0 +1,42 @@
+.newsletter {
+    background-color: #2c57e4;
+    padding: 6.5rem 0;
+    color: #fff;
+  }
+  
+  .newsletter__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .newsletter__text {
+    font-size: 1.6rem;
+    font-weight: 100;
+  }
+  
+  .newsletter__email {
+    background: #fff;
+    flex-basis: 22rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem 0.3rem 0.3rem 1.5rem;
+    border-radius: 0.3rem;
+  }
+  
+  .newsletter__txt {
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+  
+  .newsletter__btn {
+    background: #2f5bea;
+    border: none;
+    outline: none;
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3rem;
+  }
