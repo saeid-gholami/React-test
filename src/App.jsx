@@ -1,7 +1,8 @@
 import "./App.css"
 import Header from "./Header/Header";
-import Works from "./Main/Works";
 import Navbar from "./Navbar/Navbar";
+import Works from "./Main/Works";
+import Comments from "./Main/Comments";
 
 function App() {
     return (
@@ -9,6 +10,7 @@ function App() {
             <Navbar />
             <Header />
             <Works />
+            <Comments />
         </div>
     )
 }
