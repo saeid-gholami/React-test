@@ -5,6 +5,7 @@ import Works from "./Main/Works";
 import Comments from "./Main/Comments";
 import Protfolio from "./Main/portfolio";
 import Newsletter from "./Footer/Newsletter";
+import CopyRight from "./Footer/CopyRight";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
             <Comments />
             <Protfolio />
             <Newsletter />
+            <CopyRight />
         </div>
     )
 }
