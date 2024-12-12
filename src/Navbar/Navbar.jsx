@@ -4,7 +4,7 @@ function Navbar() {
     return (
         <nav className="container navbar">
             <div className="navbar__left">
-                <img src="public/images/Interactive-ART.png" alt="navbar logo" />
+                <img src="images/Interactive-ART.png" alt="navbar logo" />
                 <ul className="navbar__list-items">
                     <li><a href="#" className="navbar__list-item-link">Home</a></li>
                     <li><a href="#" className="navbar__list-item-link">About</a></li>

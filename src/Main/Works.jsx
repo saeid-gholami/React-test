@@ -29,7 +29,7 @@ function Works() {
                     </div>
                 </div>
                 <div className="works__img">
-                    <img src="public/images/main-img.svg" className="works__img-img"/>
+                    <img src="images/main-img.svg" className="works__img-img"/>
                 </div>
             </div>
         </section>

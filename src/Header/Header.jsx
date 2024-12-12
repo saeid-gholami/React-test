@@ -17,7 +17,7 @@ function Header() {
                     </div>
                 </div>
                 <div className="header__wrapper-right">
-                    <img src="public/images/header-img.svg" alt="header image" />
+                    <img src="images/header-img.svg" alt="header image" />
                 </div>
             </div>
         </header>

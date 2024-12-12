@@ -9,7 +9,7 @@ function Newsletter() {
                     <div className="newsletter__email">
                         <input type="text" className="newsletter__txt" placeholder="Email address" />
                         <button className="newsletter__btn">
-                            <img src="public/images/right-arrow.svg"/>
+                            <img src="images/right-arrow.svg"/>
                         </button>
                     </div>
                 </div>

@@ -17,7 +17,7 @@ function Comments() {
                                 </p>
                             </div>
                             <div className="comment__info">
-                                <img src="public/images/person-1.png" className="comment__info-img" />
+                                <img src="images/person-1.png" className="comment__info-img" />
                                 <p className="comment__info-text">Martin Jones, Creative Cons</p>
                             </div>
                         </div>
@@ -28,7 +28,7 @@ function Comments() {
                                 </p>
                             </div>
                             <div className="comment__info">
-                                <img src="public/images/person-2.png" className="comment__info-img" />
+                                <img src="images/person-2.png" className="comment__info-img" />
                                 <p className="comment__info-text">Martin Jones, Creative Cons</p>
                             </div>
                         </div>
@@ -39,17 +39,17 @@ function Comments() {
                                 </p>
                             </div>
                             <div className="comment__info">
-                                <img src="public/images/person-3.png" className="comment__info-img" />
+                                <img src="images/person-3.png" className="comment__info-img" />
                                 <p className="comment__info-text">Martin Jones, Creative Cons</p>
                             </div>
                         </div>
                     </div>
                     <div className="companies">
-                        <img src="public/images/logo-1.svg" className="companies__logo" />
-                        <img src="public/images/logo-2.svg" className="companies__logo" />
-                        <img src="public/images/logo-3.svg" className="companies__logo" />
-                        <img src="public/images/logo-4.svg" className="companies__logo" />
-                        <img src="public/images/logo-5.svg" className="companies__logo" />
+                        <img src="images/logo-1.svg" className="companies__logo" />
+                        <img src="images/logo-2.svg" className="companies__logo" />
+                        <img src="images/logo-3.svg" className="companies__logo" />
+                        <img src="images/logo-4.svg" className="companies__logo" />
+                        <img src="images/logo-5.svg" className="companies__logo" />
                     </div>
                 </div>
             </div>
