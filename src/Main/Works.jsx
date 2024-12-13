@@ -1,4 +1,5 @@
 import "./Works.css";
+import WorksContentItem from "./WorksContentItem";
 
 function Works() {
     return (
@@ -9,27 +10,21 @@ function Works() {
                     Three Simple Step To Started Working Process
                 </h2>
                 <div className="works__content">
-                    <div className="works__content-item">
-                        <h4 className="works__content-item-title">Research Project</h4>
-                        <p className="works__content-item-text">
-                        There are many variations of passages of Lorem Ipsum available
-                        </p>
-                    </div>
-                    <div className="works__content-item">
-                        <h4 className="works__content-item-title">Targeting</h4>
-                        <p className="works__content-item-text">
-                        There are many variations of passages of Lorem Ipsum available
-                        </p>
-                    </div>
-                    <div className="works__content-item">
-                        <h4 className="works__content-item-title">Research Project</h4>
-                        <p className="works__content-item-text">
-                        There are many variations of passages of Lorem Ipsum available
-                        </p>
-                    </div>
+                    <WorksContentItem
+                        title="Research Project"
+                        desc="There are many variations of passages of Lorem Ipsum available"
+                    />
+                    <WorksContentItem
+                        title="Targeting"
+                        desc="There are many variations of passages of Lorem Ipsum available"
+                    />
+                    <WorksContentItem
+                        title="Research Project"
+                        desc="There are many variations of passages of Lorem Ipsum available"
+                    />
                 </div>
                 <div className="works__img">
-                    <img src="images/main-img.svg" className="works__img-img"/>
+                    <img src="images/main-img.svg" className="works__img-img" />
                 </div>
             </div>
         </section>

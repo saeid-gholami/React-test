@@ -1,4 +1,6 @@
+import ShowImage from "./ShowImage"
 import "./Comments.css"
+import CommentBox from "./CommentsBox"
 
 function Comments() {
     return (
@@ -10,46 +12,28 @@ function Comments() {
                 </p>
                 <div className="cmments__container">
                     <div className="comments">
-                        <div className="comment">
-                            <div className="comment__content">
-                                <p className="comment__body">
-                                    Life before Company was very chaotic we got a lot of phone calls, a lot of mistyped orders. So with Company, the ability to see the order directly from the customer makes it so streamlined.
-                                </p>
-                            </div>
-                            <div className="comment__info">
-                                <img src="images/person-1.png" className="comment__info-img" />
-                                <p className="comment__info-text">Martin Jones, Creative Cons</p>
-                            </div>
-                        </div>
-                        <div className="comment">
-                            <div className="comment__content">
-                                <p className="comment__body">
-                                    Life before Company was very chaotic we got a lot of phone calls, a lot of mistyped orders. So with Company, the ability to see the order directly from the customer makes it so streamlined.
-                                </p>
-                            </div>
-                            <div className="comment__info">
-                                <img src="images/person-2.png" className="comment__info-img" />
-                                <p className="comment__info-text">Martin Jones, Creative Cons</p>
-                            </div>
-                        </div>
-                        <div className="comment">
-                            <div className="comment__content">
-                                <p className="comment__body">
-                                    Life before Company was very chaotic we got a lot of phone calls, a lot of mistyped orders. So with Company, the ability to see the order directly from the customer makes it so streamlined.
-                                </p>
-                            </div>
-                            <div className="comment__info">
-                                <img src="images/person-3.png" className="comment__info-img" />
-                                <p className="comment__info-text">Martin Jones, Creative Cons</p>
-                            </div>
-                        </div>
+                        <CommentBox
+                            comment="Life before Company was very chaotic we got a lot of phone calls, a lot of mistyped orders. So with Company, the ability to see the order directly from the customer makes it so streamlined."
+                            userImage="images/person-1.png"
+                            userName="Martin Jones, Creative Cons"
+                        />
+                        <CommentBox
+                            comment="Life before Company was very chaotic we got a lot of phone calls, a lot of mistyped orders. So with Company, the ability to see the order directly from the customer makes it so streamlined."
+                            userImage="images/person-2.png"
+                            userName="Saeid Gholami, west Tehran"
+                        />
+                        <CommentBox
+                            comment="Life before Company was very chaotic we got a lot of phone calls, a lot of mistyped orders. So with Company, the ability to see the order directly from the customer makes it so streamlined."
+                            userImage="images/person-3.png"
+                            userName="Sajad Babaei, Lahijan Guilan"
+                        />
                     </div>
                     <div className="companies">
-                        <img src="images/logo-1.svg" className="companies__logo" />
-                        <img src="images/logo-2.svg" className="companies__logo" />
-                        <img src="images/logo-3.svg" className="companies__logo" />
-                        <img src="images/logo-4.svg" className="companies__logo" />
-                        <img src="images/logo-5.svg" className="companies__logo" />
+                        <ShowImage image="images/logo-1.svg" />
+                        <ShowImage image="images/logo-2.svg" />
+                        <ShowImage image="images/logo-3.svg" />
+                        <ShowImage image="images/logo-4.svg" />
+                        <ShowImage image="images/logo-5.svg" />
                     </div>
                 </div>
             </div>

@@ -1,4 +1,5 @@
 import "./Portfolio.css";
+import PortfolioImage from "./PortfolioImage";
 
 function Protfolio() {
     return (
@@ -7,24 +8,12 @@ function Protfolio() {
                 <h5 className="portfolio__title">PORTFOLIO</h5>
                 <h2 className="portfolio__text">Three Simple Step To Started Working Process</h2>
                 <div className="portfolio__items">
-                    <div className="portfolio__item">
-                        <img src="images/portfolio-1.jpg" className="portfolio__item-img" />
-                    </div>
-                    <div className="portfolio__item">
-                        <img src="images/portfolio-2.jpg" className="portfolio__item-img" />
-                    </div>
-                    <div className="portfolio__item">
-                        <img src="images/portfolio-3.jpg" className="portfolio__item-img" />
-                    </div>
-                    <div className="portfolio__item">
-                        <img src="images/portfolio-4.jpg" className="portfolio__item-img" />
-                    </div>
-                    <div className="portfolio__item">
-                        <img src="images/portfolio-5.jpg" className="portfolio__item-img" />
-                    </div>
-                    <div className="portfolio__item">
-                        <img src="images/portfolio-6.jpg" className="portfolio__item-img" />
-                    </div>
+                    <PortfolioImage image="images/portfolio-1.jpg" />
+                    <PortfolioImage image="images/portfolio-2.jpg" />
+                    <PortfolioImage image="images/portfolio-3.jpg" />
+                    <PortfolioImage image="images/portfolio-4.jpg" />
+                    <PortfolioImage image="images/portfolio-5.jpg" />
+                    <PortfolioImage image="images/portfolio-6.jpg" />
                 </div>
             </div>
         </section>
